@@ -4,6 +4,12 @@ It is a web app that helps you visualize how dijkstra's algorithm works, it then
 
 All the code can be located in /src/Visualizer.
 
+## Installation
+[NodeJS](https://nodejs.org/) is required. <br />
+1. clone the repo
+2. `cd visual-dijkstra`
+3. `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
