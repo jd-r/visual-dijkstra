@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import dijkstra from "./dijkstra";
 import { ROWSIZE, COLSIZE } from "./consts";
 
-import "./PathfindingVisualizer.css";
+import "./Visualizer.css";
 
 function Node(props) {
   const {
@@ -19,10 +19,10 @@ function Node(props) {
   const extraClassName = isFinish
     ? "node-finish"
     : isStart
-    ? "node-start"
-    : isWall
-    ? "node-wall"
-    : "";
+      ? "node-start"
+      : isWall
+        ? "node-wall"
+        : "";
 
   return (
     <div
